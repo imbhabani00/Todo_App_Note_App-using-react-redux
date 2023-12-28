@@ -1,0 +1,42 @@
+/* NavBar.css */
+
+.navbar {
+  background-color: #333; /* Change this color to suit your design */
+  color: white; /* Text color */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Adjust as needed */
+  font-weight: bold;
+  /* Other styles for the brand */
+}
+
+
+.navbar-nav .nav-item {
+  /* Styles for individual navigation items */
+  margin-right: 10px; /* Example margin between items */
+}
+
+.navbar-nav .nav-link {
+  /* Styles for the navigation links */
+  color: white; /* Link text color */
+  /* Other link styles */
+}
+
+.navbar-nav .nav-link.active {
+  /* Styles for the active link (current page) */
+  font-weight: bold;
+  /* Other styles */
+}
+
+/* New styles to display h2 elements inline */
+.navbar-nav .nav-item h2 {
+  display: inline; /* Display h2 elements inline */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  font-size: inherit; /* Inherit font size from parent */
+  font-weight: inherit;
+  margin-top: 1.5rem;
+  margin-left: -3rem; 
+  
+}
